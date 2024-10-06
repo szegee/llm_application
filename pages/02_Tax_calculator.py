@@ -20,7 +20,7 @@ with st.container(height = 450):
     col5, col6 = st.columns(2)
 
     with col5:
-        st.subheader("Enter your tax income amount:")
+        st.subheader("Enter your tax income:")
         total_income = st.number_input("Total income (S$)", min_value=0, max_value=99999, step=100)
         st.subheader("Your Total Tax Relief based on input below:")
         placeholder_total_relief = st.empty()  # Placeholder for pie chart (renders first)
