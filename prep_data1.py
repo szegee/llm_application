@@ -142,7 +142,7 @@ def scrap_iras_data():
         print(chunk)
 
 
-    from langchain_chroma import Chroma
+    #from langchain_chroma import Chroma
     from langchain_openai import OpenAIEmbeddings
 
     embeddings_model = OpenAIEmbeddings(model='text-embedding-3-small')

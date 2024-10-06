@@ -108,7 +108,7 @@ watchdog==4.0.0
 yarl==1.9.4
 beautifulsoup4==4.12.3
 python-dotenv
-chromadb==0.5.11
-langchain_chroma==0.1.4
+#chromadb==0.5.11
+#langchain_chroma==0.1.4
 faiss-cpu==1.8.0
 streamlit_extras==0.4.7
