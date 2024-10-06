@@ -131,9 +131,6 @@ def scrap_iras_data():
 
 
 
-    # split the dataset and store in vectordb
-
-
     from langchain_text_splitters import RecursiveJsonSplitter
 
     splitter = RecursiveJsonSplitter(max_chunk_size=400)
@@ -152,12 +149,12 @@ def scrap_iras_data():
 
 
     # Create the vector database
-    vectordb = Chroma.from_documents(
-        documents=json_docs,
-        embedding=embeddings_model,
-        collection_name="json_splitter", # one database can have multiple collections
-        persist_directory="./vector_db"
-    )
+    # vectordb = Chroma.from_documents(
+    #     documents=json_docs,
+    #     embedding=embeddings_model,
+    #     collection_name="json_splitter", # one database can have multiple collections
+    #     persist_directory="./vector_db"
+    # )
 
 
     # from langchain import hub

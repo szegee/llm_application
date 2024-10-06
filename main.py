@@ -4,12 +4,10 @@ import llm_functions # <--- This is the helper function that we have created ðŸ†
 import prep_data1
 from streamlit_extras.app_logo import add_logo
 
-# region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="centered",
     page_title="My Streamlit App"
 )
-# endregion <--------- Streamlit App Configuration --------->
 
 mbs_otters_path = "mbs_otters.png"  
 iras_logo_path = "iras logo.png"  
