@@ -1,4 +1,5 @@
- Tax Relief Calculator & Smart Chatbot
+Tax Relief Calculator & Smart Chatbot
+
 This is a Streamlit web application designed to help tax residents calculate their tax payable with ease. The application provides a comprehensive tax relief calculator and a smart chatbot for quick answers to tax-related questions.
 
 Features
