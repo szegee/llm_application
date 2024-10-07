@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-flyer_otters_path = "flyer_otters.png"  
-iras_logo_path = "iras logo.png"  
+flyer_otters_path = "pictures/flyer_otters.png"  
+iras_logo_path = "pictures/iras logo.png"  
 
 st.sidebar.write("Your personal income tax relief calculator")
 

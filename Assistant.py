@@ -8,8 +8,8 @@ st.set_page_config(
     page_title="My Streamlit App"
 )
 
-mbs_otters_path = "mbs_otters.png"  
-iras_logo_path = "iras logo.png"  
+mbs_otters_path = "pictures/mbs_otters.png"  
+iras_logo_path = "pictures/iras logo.png"  
 
 st.sidebar.write("Your personal income tax relief calculator")
 

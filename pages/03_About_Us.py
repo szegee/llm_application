@@ -5,7 +5,7 @@ import prep_data1
 
 
 
-about_us_otters_path = "about_us_otter.png"  
+about_us_otters_path = "pictures/about_us_otter.png"  
 
 st.sidebar.write("Your personal income tax relief calculator")
 
