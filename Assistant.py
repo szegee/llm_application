@@ -26,8 +26,8 @@ user_prompt = form.text_area("Enter your query regarding personal income tax rel
 
 if form.form_submit_button("Submit"):
     st.toast(f"User Input Submitted - {user_prompt}")
-    #response = prep_data1.ask_tax_relief_qn(user_prompt)
-    #st.write(response) 
+    response = prep_data1.ask_tax_relief_qn(user_prompt)
+    st.write(response) 
     print(f"User Input is {user_prompt}")
 
 with st.expander("IMPORTANT NOTICE"):
