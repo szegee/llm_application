@@ -96,11 +96,11 @@ values = [total_relief_, total_income - total_relief_]
 # ax.pie(values, labels=labels, autopct='%1.1f%%', startangle=90)
 # ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-fig = px.pie(values=values, names=labels, title="Total Relief vs Total Income", hole=0.3)
+fig = px.pie(values=values, names=labels, title="Total Relief vs Assessable Income", hole=0.3)
 
 # Update layout to adjust the size
 fig.update_layout(
-    width=400,
+    width=300,
     height=400,
     showlegend = False
 )

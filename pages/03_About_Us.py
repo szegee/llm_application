@@ -16,7 +16,8 @@ st.title("About Us 🌟")
 
 st.header("Project Scope")
 st.write("""
-    this project encompasses the development of a user-friendly Streamlit application tailored specifically for Singapore tax residents. By leveraging Retrieval Augmented Generation (RAG) for our chatbot and robust calculation algorithms for tax payable, this app aims to provide a comprehensive solution that addresses both informational and practical needs related to personal income tax.
+    This project encompasses the development of a user-friendly Streamlit application tailored specifically for Singapore tax residents. \
+         By leveraging Retrieval Augmented Generation (RAG) for our chatbot and a simple calculator for tax relief, this app aims to provide a comprehensive solution that addresses both informational and practical needs related to personal income tax.
 """)
 
 st.header("Objectives")
