@@ -88,7 +88,7 @@ total_relief_ = min( total_relief_,80000)
 placeholder_total_relief.write(f"${total_relief_}")
 
 # Create a pie chart with the input values
-labels = ['Total Deduction (relief)', ' ']
+labels = ['Total Deduction (relief)', 'Assessable Income']
 values = [total_relief_, total_income - total_relief_]
 
 # Plot the pie chart
