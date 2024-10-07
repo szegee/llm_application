@@ -114,7 +114,7 @@ def scrap_iras_data():
 
 
     # %%
-    scrapped_all = {}
+    scrapped_all = {}   
     for relief_ in  all_relief_url:
         #scrapped_ = scrape_page(url)
         print(f"Scrapping:{base_url}{relief_}")
