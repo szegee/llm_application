@@ -24,7 +24,7 @@ st.header("Objectives")
 st.markdown("""
 - **Educate and Inform**: Provide clear and concise information about various tax reliefs available to Singapore residents.
 - **Simplify Tax Calculations**: Offer an intuitive calculator to help users accurately determine their tax liabilities.
-- **Enhance User Experience**: Utilize cutting-edge LLM powered by RAG to offer real-time, accurate responses to user queries through our intelligent chatbot.
+- **Enhance User Experience**: Utilize LLM powered by RAG to offer real-time, accurate responses to user queries through the intelligent chatbot.
 - **Ensure Accuracy and Compliance**: Keep our data and tools up-to-date with the latest tax relief from IRAS to ensure users receive reliable information.
 """)
 

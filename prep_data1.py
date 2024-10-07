@@ -94,19 +94,19 @@ def scrap_iras_data():
 
 
     all_relief_url = ['earned-income-relief',
-    # 'spouse-relief-spouse-relief-(disability)',
-    # 'foreign-domestic-worker-levy-(fdwl)-relief',
-    # "central-provident-fund(cpf)-relief-for-employees",
-    # "central-provident-fund-(cpf)-relief-for-self-employed-employee-who-is-also-self-employed",
-    # "nsman-relief-(self-wife-and-parent)",
-    # "parent-relief-parent-relief-(disability)",
-    # "grandparent-caregiver-relief",
-    # "sibling-relief-(disability)",
-    # "working-mother's-child-relief-(wmcr)",
-    # "qualifying-child-relief-(qcr)-child-relief-(disability)",
-    # "life-insurance-relief",
-    # "course-fees-relief",
-    # "central-provident-fund-(cpf)-cash-top-up-relief",
+    'spouse-relief-spouse-relief-(disability)',
+    'foreign-domestic-worker-levy-(fdwl)-relief',
+    "central-provident-fund(cpf)-relief-for-employees",
+    "central-provident-fund-(cpf)-relief-for-self-employed-employee-who-is-also-self-employed",
+    "nsman-relief-(self-wife-and-parent)",
+    "parent-relief-parent-relief-(disability)",
+    "grandparent-caregiver-relief",
+    "sibling-relief-(disability)",
+    "working-mother's-child-relief-(wmcr)",
+    "qualifying-child-relief-(qcr)-child-relief-(disability)",
+    "life-insurance-relief",
+    "course-fees-relief",
+    "central-provident-fund-(cpf)-cash-top-up-relief",
     "compulsory-and-voluntary-medisave-contributions"]
 
     base_url = "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/"
