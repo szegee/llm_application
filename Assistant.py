@@ -1,7 +1,15 @@
+from utility import check_password()
+
+# Do not continue if check_password is not True.  
+if not check_password():  
+    st.stop()
+
+
 # Set up and run this Streamlit App
 import streamlit as st
 import llm_functions # <--- This is the helper function that we have created 🆕
 import prep_data1
+
 
 st.set_page_config(
     layout="centered",
