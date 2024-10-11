@@ -1,9 +1,11 @@
-# Set up and run this Streamlit App
+from utility import check_password
 import streamlit as st
 import llm_functions # <--- This is the helper function that we have created 🆕
 import prep_data1
 
-
+# Do not continue if check_password is not True.  
+if not check_password():  
+    st.stop()
 
 about_us_otters_path = "pictures/about_us_otter.png"  
 

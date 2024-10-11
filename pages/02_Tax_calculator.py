@@ -1,11 +1,14 @@
-# Set up and run this Streamlit App
+from utility import check_password
 import streamlit as st
 import llm_functions # <--- This is the helper function that we have created 
 import prep_data1
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-
+# Do not continue if check_password is not True.  
+if not check_password():  
+    st.stop()
+    
 flyer_otters_path = "pictures/flyer_otters.png"  
 iras_logo_path = "pictures/iras logo.png"  
 
